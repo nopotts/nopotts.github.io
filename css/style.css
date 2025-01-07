@@ -12172,13 +12172,14 @@ textarea.form-control-lg {
   }
 }
 .tab-container {
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
 }
 
 .tabs {
