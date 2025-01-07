@@ -12171,5 +12171,52 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.tab-container {
+  width: 80%;
+  max-width: 800px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  transition: background 0.3s;
+}
+
+.tabs button:hover {
+  background: #eaeaea;
+}
+
+.tabs button.active {
+  background: #ddd;
+  font-weight: bold;
+  color: #000;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
